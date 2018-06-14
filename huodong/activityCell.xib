@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="activityCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="huodong" rowHeight="308" id="KGk-i7-Jjw" customClass="activity">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="308"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="307.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="『真人秀宣传片拍摄·杭州地区征集狗狗』" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BGt-Ax-EP0">
+                        <rect key="frame" x="9" y="10" width="299" height="19.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Jd-6X-cwt">
+                        <rect key="frame" x="0.0" y="42" width="375" height="0.5"/>
+                        <color key="backgroundColor" red="0.94117647058823528" green="0.94117647058823528" blue="0.94117647058823528" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.5" id="cmc-93-oyA"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="时间：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="evx-tS-lMv">
+                        <rect key="frame" x="15" y="53" width="43" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="地点：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D7W-YW-Thu">
+                        <rect key="frame" x="15" y="76" width="43" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="关键字：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WSP-p8-bSJ">
+                        <rect key="frame" x="15" y="99" width="58" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="备注：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="coF-CA-0Ts">
+                        <rect key="frame" x="15" y="122" width="43" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="6月21日" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DNI-fM-QbA">
+                        <rect key="frame" x="76" y="53" width="53" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="杭州西湖区黄龙体育场" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lsJ-pb-JAm">
+                        <rect key="frame" x="76" y="76" width="143" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="喜欢游泳、跳水、和孩子相处有友好" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WYM-bC-nSJ">
+                        <rect key="frame" x="76" y="99" width="228.5" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="本宣传片后期有重量A级大咖参与。现场将由吴起宠物工作室参与指导。" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wsj-oY-Zt7">
+                        <rect key="frame" x="76" y="122" width="284" height="33.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="284" id="0u4-BO-s1W"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="actiitydog" translatesAutoresizingMaskIntoConstraints="NO" id="1CB-ox-i4f">
+                        <rect key="frame" x="130" y="169" width="115" height="79"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="115" id="cWj-OD-kDZ"/>
+                            <constraint firstAttribute="height" constant="79" id="hEB-7K-cLk"/>
+                        </constraints>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5tP-gf-PJW">
+                        <rect key="frame" x="112" y="256" width="150" height="35"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="150" id="GJe-Kp-R6d"/>
+                            <constraint firstAttribute="height" constant="35" id="bkW-lm-nTf"/>
+                        </constraints>
+                        <state key="normal" title="我要报名" image="bao">
+                            <color key="titleColor" red="0.94117647059999998" green="0.94117647059999998" blue="0.94117647059999998" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="7Jd-6X-cwt" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="2pS-Fa-dla"/>
+                    <constraint firstItem="WSP-p8-bSJ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="41o-fC-WmG"/>
+                    <constraint firstItem="D7W-YW-Thu" firstAttribute="top" secondItem="evx-tS-lMv" secondAttribute="bottom" constant="6" id="7Ap-1f-fwe"/>
+                    <constraint firstItem="coF-CA-0Ts" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="DR9-Zi-qVy"/>
+                    <constraint firstItem="BGt-Ax-EP0" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="FHs-0y-8V7"/>
+                    <constraint firstItem="WYM-bC-nSJ" firstAttribute="leading" secondItem="WSP-p8-bSJ" secondAttribute="trailing" constant="3" id="IKo-O2-ldY"/>
+                    <constraint firstItem="BGt-Ax-EP0" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="9" id="JIn-tT-QX8"/>
+                    <constraint firstItem="evx-tS-lMv" firstAttribute="top" secondItem="7Jd-6X-cwt" secondAttribute="bottom" constant="10.5" id="Lhb-bM-BpC"/>
+                    <constraint firstItem="WYM-bC-nSJ" firstAttribute="top" secondItem="lsJ-pb-JAm" secondAttribute="bottom" constant="6" id="NZR-Ht-1Ib"/>
+                    <constraint firstItem="D7W-YW-Thu" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="NcN-H7-iQ9"/>
+                    <constraint firstItem="Wsj-oY-Zt7" firstAttribute="leading" secondItem="coF-CA-0Ts" secondAttribute="trailing" constant="18" id="NjR-ir-kqB"/>
+                    <constraint firstItem="lsJ-pb-JAm" firstAttribute="top" secondItem="DNI-fM-QbA" secondAttribute="bottom" constant="6" id="Oxd-KY-qET"/>
+                    <constraint firstItem="DNI-fM-QbA" firstAttribute="top" secondItem="7Jd-6X-cwt" secondAttribute="bottom" constant="10.5" id="TZM-gY-auB"/>
+                    <constraint firstItem="DNI-fM-QbA" firstAttribute="leading" secondItem="evx-tS-lMv" secondAttribute="trailing" constant="18" id="VXl-3i-UEW"/>
+                    <constraint firstItem="1CB-ox-i4f" firstAttribute="top" secondItem="Wsj-oY-Zt7" secondAttribute="bottom" constant="13.5" id="YDy-e6-9C9"/>
+                    <constraint firstItem="evx-tS-lMv" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="YbM-0r-1s8"/>
+                    <constraint firstItem="Wsj-oY-Zt7" firstAttribute="top" secondItem="WYM-bC-nSJ" secondAttribute="bottom" constant="6" id="aR7-Ja-s3a"/>
+                    <constraint firstItem="1CB-ox-i4f" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="b3g-C7-krS"/>
+                    <constraint firstItem="7Jd-6X-cwt" firstAttribute="top" secondItem="BGt-Ax-EP0" secondAttribute="bottom" constant="12.5" id="dA2-7h-aO9"/>
+                    <constraint firstItem="WSP-p8-bSJ" firstAttribute="top" secondItem="D7W-YW-Thu" secondAttribute="bottom" constant="6" id="e5a-fr-cQN"/>
+                    <constraint firstItem="5tP-gf-PJW" firstAttribute="top" secondItem="1CB-ox-i4f" secondAttribute="bottom" constant="8" id="faO-p7-6cb"/>
+                    <constraint firstAttribute="trailing" secondItem="7Jd-6X-cwt" secondAttribute="trailing" id="h1a-a6-u4i"/>
+                    <constraint firstItem="lsJ-pb-JAm" firstAttribute="leading" secondItem="D7W-YW-Thu" secondAttribute="trailing" constant="18" id="oFp-Ye-Woy"/>
+                    <constraint firstItem="coF-CA-0Ts" firstAttribute="top" secondItem="WSP-p8-bSJ" secondAttribute="bottom" constant="6" id="vi1-XA-upA"/>
+                </constraints>
+            </tableViewCellContentView>
+            <constraints>
+                <constraint firstItem="5tP-gf-PJW" firstAttribute="centerX" secondItem="KGk-i7-Jjw" secondAttribute="centerX" id="GwL-bg-aEk"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <point key="canvasLocation" x="57.5" y="184"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="actiitydog" width="115" height="79"/>
+        <image name="bao" width="150" height="35"/>
+    </resources>
+</document>

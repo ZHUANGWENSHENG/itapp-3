@@ -7,7 +7,17 @@
 //
 
 #import "AppDelegate.h"
+#import "load.h"
+#import "hotNews.h"
+#import"News.h"
+#import "IndexView.h"
+#import "forgetViewController.h"
+#import "AdoptCenter.h"
+#import "tabBarController.h"
+#import "registerView.h"
 
+
+#import "myView.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +27,57 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window=[[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    [self.window makeKeyAndVisible];
+    load *loadPage=[[load alloc]init];
+    UINavigationController *nav2=[[UINavigationController alloc]initWithRootViewController:loadPage];
+//    load *loadPage=[[load alloc]init];
+//    UINavigationController *nav2=[[UINavigationController alloc]initWithRootViewController:loadPage];
+//
+//    IndexView *ind=[[IndexView alloc]init];
+//    UINavigationController *nav1=[[UINavigationController alloc]initWithRootViewController:ind];
+//
+//    hotNews *newView=[[hotNews alloc]init];
+//    UINavigationController *nav3=[[UINavigationController alloc]initWithRootViewController:newView];
+//
+//    myView *reg=[[myView alloc]init];
+//    UINavigationController *nav4=[[UINavigationController alloc]initWithRootViewController:reg];
+//
+//    UITabBarController *tab=[[UITabBarController alloc]init];
+//
+//
+//
+//    UIButton *sendBtn = [[UIButton alloc] init];
+//    [sendBtn setImage:[UIImage imageNamed:@"Add"] forState:UIControlStateNormal];
+//    [sendBtn setTitle:@"发布" forState:UIControlStateNormal];
+//    sendBtn.titleLabel.font = [UIFont systemFontOfSize:10];
+//    sendBtn.adjustsImageWhenHighlighted = NO;
+//    sendBtn.frame=CGRectMake([UIScreen mainScreen].bounds.size.width/2-25, 0, 50, 50);
+//
+//    [tab.tabBar addSubview:sendBtn];
+//
+//
+//
+//   tab.viewControllers=@[nav1,nav2,nav3,nav4];
+//
+//    nav1.tabBarItem.title=@"首页";
+//    UIImage *t1=[UIImage imageNamed:@"shouye"];
+//    nav1.tabBarItem.image=t1;
+//    nav2.tabBarItem.title=@"附近";
+//    UIImage *t2=[UIImage imageNamed:@"fu"];
+//    nav2.tabBarItem.image=t2;
+//    nav3.tabBarItem.title=@"热门";
+//    UIImage *t3=[UIImage imageNamed:@"re"];
+//    nav3.tabBarItem.image=t3;
+//    nav4.tabBarItem.title=@"我的";
+//    UIImage *t4=[UIImage imageNamed:@"my"];
+//    nav4.tabBarItem.image=t4;
+    
+//    self.window.rootViewController=tab;
+    
+    tabBarController *haha=[[tabBarController alloc]init];
+    //registerView *re=[[registerView alloc]init];
+    self.window.rootViewController=nav2;
     return YES;
 }
 

@@ -55,7 +55,6 @@
 		DB3877711FF163B400753C04 /* chongwu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB38776F1FF163B400753C04 /* chongwu.xib */; };
 		DB3877751FF164B900753C04 /* chongwuview.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3877731FF164B900753C04 /* chongwuview.m */; };
 		DB3877761FF164B900753C04 /* chongwuview.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB3877741FF164B900753C04 /* chongwuview.xib */; };
-		DB3AE6BB20DD523D0038E220 /* erer.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3AE6BA20DD523D0038E220 /* erer.m */; };
 		DB44A2D61FDD6BD800EECE6B /* fujin.m in Sources */ = {isa = PBXBuildFile; fileRef = DB44A2D41FDD6BD800EECE6B /* fujin.m */; };
 		DB44A2D71FDD6BD800EECE6B /* fujin.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB44A2D51FDD6BD800EECE6B /* fujin.xib */; };
 		DB479E1C1FC060A700EE0C1E /* myView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB479E1A1FC060A700EE0C1E /* myView.m */; };
@@ -171,8 +170,6 @@
 		DB3877721FF164B900753C04 /* chongwuview.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = chongwuview.h; sourceTree = "<group>"; };
 		DB3877731FF164B900753C04 /* chongwuview.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = chongwuview.m; sourceTree = "<group>"; };
 		DB3877741FF164B900753C04 /* chongwuview.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = chongwuview.xib; sourceTree = "<group>"; };
-		DB3AE6B920DD523D0038E220 /* erer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = erer.h; sourceTree = "<group>"; };
-		DB3AE6BA20DD523D0038E220 /* erer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = erer.m; sourceTree = "<group>"; };
 		DB44A2D31FDD6BD800EECE6B /* fujin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fujin.h; sourceTree = "<group>"; };
 		DB44A2D41FDD6BD800EECE6B /* fujin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fujin.m; sourceTree = "<group>"; };
 		DB44A2D51FDD6BD800EECE6B /* fujin.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = fujin.xib; sourceTree = "<group>"; };
@@ -393,8 +390,6 @@
 		DB614A661FA2CAB400AB88B6 = {
 			isa = PBXGroup;
 			children = (
-				DB3AE6B920DD523D0038E220 /* erer.h */,
-				DB3AE6BA20DD523D0038E220 /* erer.m */,
 				AE2B80EA1FF23CCC00A1C485 /* commentViewCell.h */,
 				AE2B80EB1FF23CCC00A1C485 /* commentViewCell.m */,
 				AE2B80EC1FF23CCC00A1C485 /* commentViewCell.xib */,
@@ -716,7 +711,6 @@
 				9BED19511FDA6DCE0025ACF0 /* questionCell.m in Sources */,
 				AE2B80ED1FF23CCC00A1C485 /* commentViewCell.m in Sources */,
 				AE86BBE01FDFCC3E00EAC21F /* Activity.m in Sources */,
-				DB3AE6BB20DD523D0038E220 /* erer.m in Sources */,
 				AEC73CE91FED13BA0064C1C8 /* AFSecurityPolicy.m in Sources */,
 				AEC73CE71FED13BA0064C1C8 /* AFHTTPSessionManager.m in Sources */,
 				AE621F501FEB7EB100A27440 /* headershouyangTableViewCell.m in Sources */,

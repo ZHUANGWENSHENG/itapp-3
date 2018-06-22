@@ -161,11 +161,14 @@
 }
 -(void)toIndex{
 
+    tabBarController *tab=[[tabBarController alloc]init];
     
+    UIWindow *win=self.view.window;
+    win.rootViewController=tab;
     
     [self AFNetMonitor];
     [self AFGetData];
-   
+  
  
     
    

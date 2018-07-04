@@ -17,8 +17,7 @@
 @property (weak, nonatomic) IBOutlet UIButton *forget;
 @property (weak, nonatomic) IBOutlet UIButton *load;
 @property (weak, nonatomic) IBOutlet UIButton *zhuCe;
-@property(strong,nonatomic)UINavigationController *nav1;
-@property(strong,nonatomic)UINavigationController *nav2;
+
 
 
 @end
